@@ -12,7 +12,7 @@ public class Project {
     private String projectIdentifier;
     private String description;
     private Date startDate;
-    private Date end_date;
+    private Date endDate;
     private Date createdAt;
     private Date updatedAt;
 
@@ -26,7 +26,7 @@ public class Project {
     public Date getStartDate() { return startDate; }
     public Date getCreatedAt() { return createdAt; }
     public Date getUpdatedAt() { return updatedAt; }
-    public Date getEnd_date() { return end_date; }
+    public Date getEndDate() { return endDate; }
     public Long getId() { return id; }
 
                 // ##### Setters ##### //
@@ -36,7 +36,7 @@ public class Project {
     public void setStartDate(Date startDate) { this.startDate = startDate; }
     public void setCreatedAt(Date createdAt) { this.createdAt = createdAt; }
     public void setUpdatedAt(Date updatedAt) { this.updatedAt = updatedAt; }
-    public void setEnd_date(Date end_date) { this.end_date = end_date; }
+    public void setEndDate(Date endDate) { this.endDate = endDate; }
     public void setId(Long id) { this.id = id; }
 
     @PrePersist
