@@ -10,5 +10,4 @@ public interface ProjectRepository extends CrudRepository<Project, Long> {
     default Iterable<Project> findAllById(Iterable<Long> iterable) {
         return null;
     }
-
 }
